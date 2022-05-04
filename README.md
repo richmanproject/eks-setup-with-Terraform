@@ -1,9 +1,3 @@
-#  **<span style="color:green">Landmark Technologies, Ontario, Canada.</span>**
-### **<span style="color:green">Contacts: +1437 215 2483<br> WebSite : <http://mylandmarktech.com/></span>**
-### **Email: mylandmarktech@gmail.com**
-# Landmark Technologies,  -    Landmark Technologies 
-# Tel: +1 437 215 2483,   -     +1 437 215 2483 
-#    www.mylandmarktech.com 
 # Terraform Installation And Setup In AWS EC2 Linux Instances
 #  Using Terraform to provision a fully managed Amazon EKS Cluster
 
@@ -76,8 +70,8 @@ $ terraform apply --auto-approve
 $ terraform destroy --auto-approve
 
 ## create the kubeconfig file  
-$ mkdir .kube/ 
-$ vi .kube/config
+$ mkdir ~/.kube/ 
+$ vi ~/.kube/config
 $ kubectl get pod
 $ #!/bin/bash 
 $ sh iam-authenticator.sh 
